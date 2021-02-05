@@ -1,0 +1,9 @@
+digraph "graph" {
+	node [shape=circle]
+	"exclamation_1\" (frequence > 0)" -> "pain_2\" (frequence > 0)" [label=true]
+	"exclamation_1\" (frequence > 0)" -> "and_2\" (frequence > 0)" [label=flase]
+	"pain_2\" (frequence > 0)" -> "money_3\" (frequence > 0)" [label=true]
+	"pain_2\" (frequence > 0)" -> "pain_3\" (frequence > 1)" [label=flase]
+	"and_2\" (frequence > 0)" -> "message_3\" (frequence > 1)" [label=true]
+	"and_2\" (frequence > 0)" -> "money_3\" (frequence > 0)" [label=flase]
+}
